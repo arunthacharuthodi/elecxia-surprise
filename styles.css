@@ -1,0 +1,49 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.main{
+    background-image: url("images/elecxia.png");
+    /* position: relative; */
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    background-color: #f2f2f2;
+}
+.button{
+    /* background-color: #4CAF50; */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.logo{
+    background-color: aqua;
+}
+.button button{
+    background-color:rgb(38, 71, 219);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button button:hover{
+    background-color: rgb(172, 57, 201);
+    color: white;
+    /* //add hovering animation */
+    /* animation-duration: 200ms ease-in-out; */
+}
